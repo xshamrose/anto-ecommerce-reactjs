@@ -8,6 +8,7 @@ import Login from "./components/login&signup/Login";
 import { Provider } from "react-redux";
 import Cart from "./components/Cart";
 import Signup from "./components/login&signup/Signup";
+import NoPage from "./components/NoPage";
 
 function App() {
   return (
@@ -19,6 +20,7 @@ function App() {
           <Route path="/cart" element={<Cart />} />
           <Route path="/" element={<Login />} />
           <Route path="/Signup" element={<Signup />} />
+          <Route path="*" element={<NoPage />} />
         </Routes>
       </BrowserRouter>
     </Provider>
