@@ -1,0 +1,60 @@
+.img{
+    width: 100px;
+    height: 100px;
+    transition: all 0.3s ease;
+}
+.img:hover{
+    transform: scale(0.9,0.9);
+}
+
+.card {
+    display: inline-block;
+    /* Display products in a column layout */
+    width: 220px;
+    /* Adjust the width to make them smaller */
+    margin: 10px;
+    margin-left: 60px;
+    /* Add some margin for spacing */
+    border: 1px solid #ccc;
+    /* Add borders for separation */
+    padding: 10px;
+    text-align: center;
+}
+
+
+.card h6 {
+    font-size: 14px;
+    /* Reduce the font size for product title and price */
+}
+
+
+.card p {
+    font-size: 12px;
+    /* Reduce the font size for the category */
+}
+
+.cart-btn{
+    height:20px;
+    width:fit-content;
+    border-radius: 8px;
+    background-color: white;
+    color: black;
+    font-size: x-small;
+    font-weight: 500;
+    box-shadow: none;
+    border-width: 1px;
+    justify-content: center;
+}
+.cart-btn:hover{
+    background-color: #010101;
+    color: white;
+}
+
+.quantitybox{
+    height: 18px;
+    width: 30px;
+    font-size: small;
+    text-align: center;
+}
+
+
