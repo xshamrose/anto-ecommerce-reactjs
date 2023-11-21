@@ -64,14 +64,14 @@ function Home() {
           </div>
           <div
             className="carousel-item"
-            data-bs-interval="10000"
+            data-bs-interval="2000"
             onClick={navigateProduct}
           >
             <img src={shoe} className="d-block w-100" alt="..." />
           </div>
           <div
             className="carousel-item"
-            data-bs-interval="20000"
+            data-bs-interval="2000"
             onClick={navigateProduct}
           >
             <img src={speaker} className="d-block w-100" alt="..." />

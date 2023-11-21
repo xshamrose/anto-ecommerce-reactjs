@@ -31,6 +31,7 @@ function Login() {
       console.log("Logged in");
     } else {
       setErrors(newErrors);
+      window.alert("the username and password you have entered is incorrect");
     }
   };
 
