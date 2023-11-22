@@ -1,10 +1,10 @@
 import React from "react";
+import nopage from "../assets/404.jpg";
 
 function NoPage() {
   return (
     <div>
-      <h1>No Page found</h1>
-      <h2>404 error</h2>
+      <img src={nopage} alt="" style={{ height: "100%", width: "100%" }} />
     </div>
   );
 }
